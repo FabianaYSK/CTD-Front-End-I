@@ -1,0 +1,53 @@
+@keyframes fantasma {
+    0% { opacity: 0% }
+    25% { transform: translateY(-20px); opacity: 100% }
+    100% { opacity: 0% }
+}
+
+.bola {
+    animation: bola 3s infinite;
+}
+
+button {
+
+    transition: background-color, 0.8s, color, 0.8s;
+
+}
+
+button:hover {
+
+}
+
+div {
+
+    transform: scale(0.5) rotate(45deg);
+}
+
+#circulo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+    }
+
+.circulo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin: 15px;
+	transition: 0.3s ease;
+}
+
+.circulo:hover{
+	transform: rotateY(180deg);
+}
+
+@keyframes circulo {
+	from {
+		transform: rotate(0deg) translateX(30px);
+	} to {
+		transform: rotate(360deg) translateX(30px);
+	}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pseudoseletores</title>
+</head>
+<body>
+  
+  <h1>Pseudoseletores</h1>
+
+    <form action="algo" method="GET" id="algo">
+        <fieldset form="algo">
+        <legend>Oi, tudo bem?</legend>
+            <div>
+                <label for="algo">Escreva algo: *</label>
+                <input type="text" name="nome" id="nome" required placeholder="Escreva algo aqui">
+                <button disabled="disabled">O botão funcionou?</button>
+            </div>
+        
+            <div>
+                <label for="algo">Escreva algo (de novo): *</label>
+                <input type="text" name="nome" id="nome" required placeholder="Escreva algo aqui (de novo)">
+                <button enabled="enabled">E agora?</button>
+            </div>
+            
+            <div>
+                <label for="links">Escolha uma das opções:</label>
+                <select name="links" id="links">
+                    <option value="Primeira opção">Primeira opção</option>
+                    <option value="Segunda opção">Segunda opção</option>
+                    <option value="Terceira opção">Terceira opção</option>  
+                </select>
+            </div>
+    </form>
+
+    <h2>Temos alguns links para você! Você quer testá-los?</h2>
+
+    <ol>
+        <li><a href="#p1">Primeiro link! </a></li>
+        <li><a href="#p2">Segundo link! </a></li>
+        <li><a href="#vazio">E agora?</a></li>
+    </ol>
+
+      <p id="p1"> <i>Este parágrafo</i> refere-se ao <b>primeiro</b> link.</p>
+      <p id="p2"> Este é <i>outro parágrafo</i> e refere-se <b>segundo</b> link.</p>
+
+    <fieldset>
+        <legend>Escolha o seu link favorito</legend>
+      
+        <input type="radio" name="season" id="primeiro">
+        <label for="primeiro">Primeiro link!</label>
+      
+        <input type="radio" name="season" id="segundo">
+        <label for="segundo">Segundo link!</label>
+      
+        <input type="radio" name="season" id="terceiro" checked>
+        <label for="terceiro">E agora?</label>
+
+    </fieldset>
+  
+</body>
+</html>

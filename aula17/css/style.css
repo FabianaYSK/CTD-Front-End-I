@@ -1,0 +1,46 @@
+body {
+    height: 1200px;
+    background-image: url(https://www.teahub.io/photos/full/1-16689_anime-night-wallpapers-data-src-full-880901-anime.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: wheat;
+}
+
+div {
+    text-align: center;
+    color: wheat;
+}
+
+#lua {
+   max-width: 100px;
+   animation: luarolando 3s linear infinite;
+}
+
+@keyframes luarolando {
+    0% { opacity: 0% }
+    55% { opacity: 50%; transform: translateX(200px) rotate(180deg) }
+    100% { opacity: 100%; transform: translateX(400px) rotate(360deg) }
+}
+
+button {
+    background-color: wheat;
+    color: darkblue;
+    transition: all ease-in-out 2s;
+    border-radius: 10px;
+}   
+
+button:hover {
+    background-color: darkblue;
+    color: wheat;
+}
+
+

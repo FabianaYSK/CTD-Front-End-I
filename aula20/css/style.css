@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:ital@1&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #912f56
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer'
+}
+
+header {
+    background-color: #201e1f;
+    padding: 10px;
+    height: 10vh; 
+    grid-area: header;
+}
+  
+aside {
+    background-color: #ff4000;
+    padding: 10px;
+    grid-area: aside;
+} 
+
+li a:hover {
+    background-color: #50b2c0;
+}
+
+main {
+    background-color: #faaa8d;
+    padding: 10px;
+    height: 80vh;
+    grid-area: main;
+}
+ 
+.img-filmes, .img-series {
+    width: 15%;
+    height: 30vh;
+    padding: 5px;
+    margin: 5px;  
+}
+    
+footer {
+    background-color: #50b2c0;
+    padding: 10px;
+    height: 10vh;
+    grid-area: footer;
+}
+
+.center, .filmes, .series {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-redes {
+    width: 50px;
+    height: 50px;
+    display: inline-flex; 
+}
+
+img:hover {
+    border: 5px dotted #912f56;
+    transform: scale(1.0); 
+}
+

@@ -1,0 +1,115 @@
+body {
+  height: 1200px;
+  background-image: url(https://www.teahub.io/photos/full/59-599460_white-glitter-wallpaper-glitter-background-white-1080.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  color: darkslategray;
+  font-size: 40px;
+  text-align: center;
+}
+
+h1::selection {
+  color: white;
+  background-color: lightseagreen;
+}
+
+fieldset {
+  margin: 5%;
+  border: 5px darkslategray groove;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+legend {
+  color: darkslategrey;
+  font-size: 30px;
+  padding: 20px;
+}
+
+form {
+  padding: 20px 0;
+}
+
+input:focus {
+  background-color: lightseagreen;
+}
+
+input:default {
+  box-shadow: 2px 2px 2px 2px darkslategray;
+}
+
+input:default + label {
+  color: darkorange;
+}
+
+a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: darkslategray;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+a:active {
+  color: lightseagreen;
+}
+
+p {
+  color: darkslategray;
+  font-size: 20px;
+}
+
+p:target {
+  background-color: white;
+}
+
+h2::first-letter {
+  color: darkslategray;
+  font-size: 50px;
+}
+
+h2::after {
+  content: 'Tem certeza?';
+  color: darkorange;
+}
+
+h2::first-letter {
+  color: darkslategrey;
+  font-size: 50px;
+}
+
+button:disabled {
+  background-color: darkslategrey;
+  color: white;
+}
+
+button:enabled {
+  background-color: darkslategrey;
+  color: white;
+}
+
+option:checked {
+  color: darkorange;
+}
+
+:nth-child(1n) {
+  color: darkslategray;
+}

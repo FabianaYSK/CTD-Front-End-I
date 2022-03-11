@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+body {
+  height: 5000px;
+}
+
+.box1 {
+  position: absolute;
+  border: 5px solid blue;
+  background-color: lightsteelblue;
+  width: 10%;
+  height: 150px;
+}
+
+.box2 {
+  position: absolute;
+  border: 5px solid blue;
+  background-color: lightsteelblue;
+  width: 10%;
+  height: 150px;
+  left: 90%;
+}
+
+.box3 {
+  position: fixed;
+  border: 5px solid blue;
+  background-color: lightsteelblue;
+  width: 10%;
+  height: 150px;
+  left: 45%;
+  top: 77%;
+}
+
+.boxmenor {
+  position: relative;
+  box-sizing: content-box;
+  border: 5px groove lightskyblue;
+  background-color: lightblue;
+  margin: auto;
+  margin-top: 25px;
+  width: 60%;
+  height: 80px;
+}
